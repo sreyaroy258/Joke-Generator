@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:black;
+    background-color: rgb(221, 221, 126);
+}
+section{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+background-color: rgb(15, 199, 138);
+border-radius: 8px;
+padding: 3rem;
+display: flex;
+flex-direction: column;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem; 
+    text-align: justify;
+}
+
+button {
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: brown;
+    color: bisque;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+}
